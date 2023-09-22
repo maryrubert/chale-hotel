@@ -226,4 +226,15 @@ h1{
     cursor: pointer;
 }
 
+#area-principal li{
+    
+    list-style: none;
+    
 
+}
+
+#area-principal a{
+    text-decoration: none;
+    color: #5a3a31;
+
+}
