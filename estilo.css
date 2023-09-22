@@ -24,7 +24,7 @@ body{
 
 #area-logo{
     position: absolute;
-    background: url('./img/topo-imagem-principal.png') no-repeat;
+    background: url('./img/bg.jpg') no-repeat;
     width: 100%;
     height: 250px;
     top:0;
@@ -164,6 +164,19 @@ p{
     color: #5a3a31;
 }
 
+h1{
+    color: #7d7640;
+    font-size: 2.3em;
+    padding: 5px 0px;
+    
+}
+
+#area-principal h3{
+    color: #7d7640;
+    font-size: 0.9em;
+    padding: 5px 0px;
+}
+
 /*Formatação da área lateral
 */
 #beneficios li{
@@ -192,3 +205,25 @@ p{
     background: #f6f3d6;
     cursor: pointer;
 }
+
+
+#beneficios-paginas li{
+    padding: 10px;
+    border-bottom: 1px solid #f3efcb;
+    height: 12em;
+    background: url('./img/ornamento.png') no-repeat center right;
+}
+
+#beneficios-paginas li img{
+    float:left;
+    margin-right: 8px;
+    height: 180px;
+}
+
+
+#beneficios-paginas li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+
