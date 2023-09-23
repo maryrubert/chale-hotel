@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inclusive+Sans&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
 
     <title>Chalé Hotel</title>
     
@@ -53,7 +55,7 @@
         </div><!--/fim topo-->
 
         <div id="area-principal">
-            <div class="conteudo">
+            <div class="contato">
                 <h1>
                     Contato 
                 </h1>
@@ -62,8 +64,9 @@
                     Apesar de estarmos presentes em 3 cidades, nosso escritório administrativo é centralizado na cidade de São Paulo. Assim, mantemos o padrão de compromisso com nossos hóspedes.
                 </p>
 
-        
-                <li><a href="chalehotel@chalehotel.com">Click aqui e contate-nos</a></li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.61387612811!2d-46.654428!3d-23.562931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8e70065e9%3A0x3212f92921c32582!2sAv.%20Paulista%2C%201374!5e0!3m2!1spt-BR!2sbr!4v1695482759063!5m2!1spt-BR!2sbr" width="400" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                
                 
                 
 
@@ -73,10 +76,44 @@
 
         <div id="area-lateral">
             <div class="conteudo">
-                
-            </div>
+                <form action="email.php" class="formulario" method="post"> 
+                    <h2>Contate-nos</h2>
+                    
+                    <div class="field">
+                        <label for="nome">Seu Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="telefone">Seu Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                    </div>
             
+                    <div class="field">
+                        <label for="email">Seu E-Mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                    </div>        
+                    <div class="field radiobox">
+                        <span>Deseja receber nossas novidades?</span>
+                        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                    </div>
+                    <div class="field">
+                        <label for="mensagem">Sua mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                    </div>
+                
+                    <input type="submit" name="acao" value="Enviar">
+                </form>
+
+                <h2>
+                    Telefone: 
+                </h2>
+                <p>(+55 11) 123456789</p>
+            </div>
+        
         </div>
+
 
         <div id="rodape">
             <span>
