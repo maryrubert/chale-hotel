@@ -177,6 +177,10 @@ h1{
     padding: 5px 0px;
 }
 
+.contrato ol li{
+    color: #5a3a31;
+}
+
 /*Formatação da área lateral
 */
 #beneficios li{
@@ -225,6 +229,62 @@ h1{
     background: #f6f3d6;
     cursor: pointer;
 }
+
+#historia li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 9em;
+}
+
+#historia li a img{
+    float:left;
+    margin-right: 8px;
+}
+
+#historia li a p{
+    font-size: 1em;
+}
+
+#historia li a h3{
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url('./img/ornamento.png') no-repeat center right;
+}
+
+#historia li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#gastronomia li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 12em;
+}
+
+#gastronomia li a img{
+    float:left;
+    margin-right: 8px;
+}
+
+#gastronomia li a p{
+    font-size: 0.8em;
+}
+
+#gastronomia li a h3{
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url('./img/ornamento.png') no-repeat center right;
+}
+
+#gastronomia li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+
 
 #area-principal li{
     
@@ -300,3 +360,63 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+
+/**Reserva**/
+button, input, select, textarea {
+font-size   : 100%;
+  margin: 0.5em 1em;
+  vertical-align: middle;
+  background: #F3F4EC;
+}
+textarea {width: 100%;}
+
+fieldset {
+    color:#5A3A31;
+	border: none;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #E3D888;
+	width: 90%;
+    font-size: 1em;
+
+}
+
+fieldset p{
+    font-size: 1em;
+}
+
+legend {
+	font-size: 1em; 
+	color:#5A3A31;
+	margin-bottom: 1em;
+	}
+label {display: inline-block; min-width: 5em;}
+
+button {    
+	background-color: #31231E;
+    border: none;
+    color: #E3D888;
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 1.2em
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; 
+    float: left;
+    margin-right: 8em;
+}
+
+
+
+/* SlideShow  */
+
+.slide {display: block;}
+
+.slide img {width: 100%;}
+.slide figcaption {display: block;
+		 background:#0A200F;
+		 color:#fff;
+		 padding: 2% 5%;
+		 min-height: 6em;
+		 font-size: 0.9em;  }
+
+.slide figcaption a {color: #fff;}
