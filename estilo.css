@@ -407,16 +407,3 @@ button {
 
 
 
-/* SlideShow  */
-
-.slide {display: block;}
-
-.slide img {width: 100%;}
-.slide figcaption {display: block;
-		 background:#0A200F;
-		 color:#fff;
-		 padding: 2% 5%;
-		 min-height: 6em;
-		 font-size: 0.9em;  }
-
-.slide figcaption a {color: #fff;}
